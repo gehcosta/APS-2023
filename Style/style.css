@@ -1,0 +1,98 @@
+:root{
+    --white: #fff;
+    --black: #000;
+
+    /* Fonts */
+    --first-font: 'Bebas Neue', cursive;
+
+}
+
+/* navigation bar */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid var(--black);
+}
+.navigation__img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0 2rem;
+}
+
+.navigation__bar{
+    display: flex;
+    gap: 2rem;
+    margin: 0 3rem;
+}
+
+.navigation__words{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--first-font);
+}
+
+/* main */
+
+.title{
+    color: var(--black);
+    font-size: 2rem;
+    font-family: var(--first-font);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* access box */
+
+.access{
+    width: 50%;
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.access__title{
+    color: var(--black);
+    font-size: 1.5em;
+    font-family: var(--first-font);
+    
+}
+
+.access__box{
+    width: 15rem;
+    height: 50%;
+    padding: 0.3rem 1rem;
+    border: 1px solid var(--black);
+    border-radius: 1rem;
+}
+
+/* problem question */
+
+.problem{
+    width: 50%;
+    margin: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.problem__title{
+    color: var(--black);
+    font-size: 1.5em;
+    font-family: var(--first-font);
+}
+
+.problem__box{
+    width: 15rem;
+    height: 50%;
+    padding: 0.3rem 1rem;
+    border: 1px solid var(--black);
+    border-radius: 1rem;
+}
