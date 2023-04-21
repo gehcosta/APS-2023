@@ -1,9 +1,11 @@
 :root{
     --white: #fff;
     --black: #000;
+    --first-color: #9d9d9dc2;
 
     /* Fonts */
     --first-font: 'Bebas Neue', cursive;
+    --secondary-font: 'Bebas Neue', cursive;
 
 }
 
